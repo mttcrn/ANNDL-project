@@ -26,7 +26,9 @@ class Model:
         The following is an example of a prediction from the pre-trained model
         loaded in the __init__ method.
         """
+        X = X / 255.0
         preds = self.neural_network.predict(X)
         if len(preds.shape) == 2:
             preds = np.argmax(preds, axis=1)
         return preds
+        
