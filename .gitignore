@@ -1,3 +1,6 @@
 
 Challenge 1/Preprocessing/balanced_dataset.npz
 *.npz
+Challenge 1/Preprocessing/CreateRandAugmentValidation.ipynb
+*.keras
+*zip
