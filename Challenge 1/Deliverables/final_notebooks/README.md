@@ -1,7 +1,6 @@
 # ANNDL First Homework
 This file describes the structure of the notebooks submitted via the .zip file.
 
-### TLDR
 The order in which the notebooks should be read is the following:
 
  1. Preprocessing.ipynb
