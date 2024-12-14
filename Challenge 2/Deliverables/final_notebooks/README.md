@@ -2,8 +2,10 @@
 This file describes the structure of the notebooks submitted via the .zip file.
 
 ###  Preprocessing.ipynb
-This notebook cleans and the original training set and produces as output a new dataset called `cleaned_dataset.npz`
+This notebook cleans and the original training set and produces as output a new dataset called `cleaned_dataset.npz`.
+### U-Net.ipynb
+It implements a U-Net with residual paths, SE blocks and an higher dilation rate in the bottleneck.
 ### DoubleU-Net.ipynb
-This notebook takes the `cleaned_dataset.npz`, splits the dataset into training and validation set and applies oversampling of the big rock class. It implements a Double U-Net with residual paths, SE blocks and ASPP. It is the best scoring model.
+It implements a Double U-Net with residual paths, SE blocks and ASPP. It is the best scoring model.
 ### DoubleU-Net with attention.ipynb
-This notebook takes the `cleaned_dataset.npz`, splits the dataset into training and validation set and applies oversampling of the big rock class. It implements a Double U-Net with residual paths, SE blocks, ASPP and attention gates.
+It implements a Double U-Net with residual paths, SE blocks, ASPP and attention gates.
